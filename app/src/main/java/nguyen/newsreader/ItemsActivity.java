@@ -1,4 +1,4 @@
-package com.murach.newsreader;
+package nguyen.newsreader;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -8,6 +8,6 @@ public class ItemsActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_items);
+        setContentView(nguyen.newsreader.R.layout.activity_items);
     }
 }

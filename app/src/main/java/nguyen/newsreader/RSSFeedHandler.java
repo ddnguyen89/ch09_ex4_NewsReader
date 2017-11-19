@@ -1,4 +1,4 @@
-package com.murach.newsreader;
+package nguyen.newsreader;
 
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.*;

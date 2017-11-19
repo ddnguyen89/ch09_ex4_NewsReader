@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3e3382ea56cea016fe35e6695709aa3ead11e238">
+        sha1="23f7d27e8c5fae39b60d063bc815954a81b25e43">
         <dex dex="C:\Android\Projects\ch09_ex4_NewsReader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c54b18e0bbc936580b697c6cf89a4fb6995674ef\classes.dex" />
     </item>
     <item

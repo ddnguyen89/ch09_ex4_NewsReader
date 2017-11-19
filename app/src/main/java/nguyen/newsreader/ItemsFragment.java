@@ -1,4 +1,4 @@
-package com.murach.newsreader;
+package nguyen.newsreader;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,12 +28,12 @@ public class ItemsFragment extends Fragment
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootview =  inflater.inflate(R.layout.fragment_items, container, false);
+        View rootview =  inflater.inflate(nguyen.newsreader.R.layout.fragment_items, container, false);
 
         io = new FileIO(rootview.getContext());
 
-        titleTextView = (TextView) rootview.findViewById(R.id.titleTextView);
-        itemsListView = (ListView) rootview.findViewById(R.id.itemsListView);
+        titleTextView = (TextView) rootview.findViewById(nguyen.newsreader.R.id.titleTextView);
+        itemsListView = (ListView) rootview.findViewById(nguyen.newsreader.R.id.itemsListView);
 
         itemsListView.setOnItemClickListener(this);
 
@@ -96,9 +96,9 @@ public class ItemsFragment extends Fragment
         }
 
         // create the resource, from, and to variables
-        int resource = R.layout.listview_item;
+        int resource = nguyen.newsreader.R.layout.listview_item;
         String[] from = {"date", "title"};
-        int[] to = {R.id.pubDateTextView, R.id.titleTextView};
+        int[] to = {nguyen.newsreader.R.id.pubDateTextView, nguyen.newsreader.R.id.titleTextView};
 
         // create and set the adapter
         SimpleAdapter adapter =

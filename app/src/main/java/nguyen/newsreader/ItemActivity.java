@@ -1,4 +1,4 @@
-package com.murach.newsreader;
+package nguyen.newsreader;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -13,13 +13,13 @@ public class ItemActivity extends Activity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_item);
+        setContentView(nguyen.newsreader.R.layout.activity_item);
         
         // get references to widgets
-        TextView titleTextView = (TextView) findViewById(R.id.titleTextView);
-        TextView pubDateTextView = (TextView) findViewById(R.id.pubDateTextView);
-        TextView descriptionTextView = (TextView) findViewById(R.id.descriptionTextView);
-        TextView linkTextView = (TextView) findViewById(R.id.linkTextView);
+        TextView titleTextView = (TextView) findViewById(nguyen.newsreader.R.id.titleTextView);
+        TextView pubDateTextView = (TextView) findViewById(nguyen.newsreader.R.id.pubDateTextView);
+        TextView descriptionTextView = (TextView) findViewById(nguyen.newsreader.R.id.descriptionTextView);
+        TextView linkTextView = (TextView) findViewById(nguyen.newsreader.R.id.linkTextView);
         
         // get the intent
         Intent intent = getIntent();

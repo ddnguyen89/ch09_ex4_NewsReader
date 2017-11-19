@@ -1,4 +1,4 @@
-package com.murach.newsreader;
+package nguyen.newsreader;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

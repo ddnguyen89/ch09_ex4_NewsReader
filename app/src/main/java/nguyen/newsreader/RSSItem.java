@@ -1,4 +1,4 @@
-package com.murach.newsreader;
+package nguyen.newsreader;
 
 import android.annotation.SuppressLint;
 import java.text.ParseException;
