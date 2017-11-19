@@ -12,10 +12,10 @@
         android:padding="7dp"
         android:text="@string/items_title"
         android:textSize="22sp" />
-    
+
     <ListView
         android:id="@+id/itemsListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-</LinearLayout><!-- From: file:/C:/AndroidStudioProjects/ch09_ex4_NewsReader/app/src/main/res/layout/activity_items.xml -->
+</LinearLayout>

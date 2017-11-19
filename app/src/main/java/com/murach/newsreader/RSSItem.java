@@ -3,22 +3,27 @@ package com.murach.newsreader;
 import android.annotation.SuppressLint;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 @SuppressLint("SimpleDateFormat")
 public class RSSItem {
-    
+
     private String title = null;
     private String description = null;
     private String link = null;
-    private String pubDate = null;
+
+            //"Wed, 4 Jul 2001 12:08:56 -0700";
     
     private SimpleDateFormat dateOutFormat = 
         new SimpleDateFormat("EEEE h:mm a (MMM d)");
     
     private SimpleDateFormat dateInFormat = 
         new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z");
-    
+
+    private String pubDate = dateInFormat.format(new Date());
+
+
     public void setTitle(String title)     {
         this.title = title;
     }
